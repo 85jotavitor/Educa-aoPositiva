@@ -1,0 +1,64 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Educação Positiva</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="brand" aria-label="Educação Positiva">
+        <img src="images/logo.svg" alt="Logo Educação Positiva" class="logo" />
+        <div class="brand-text">
+          <span class="brand-name">Educação Positiva</span>
+          <small class="brand-sub">Transformando vidas através da educação</small>
+        </div>
+      </div>
+
+      <div class="nav-controls">
+        <button id="toggleTheme" aria-pressed="false" aria-label="Alternar tema">🌓</button>
+        <button id="highContrast" aria-pressed="false" aria-label="Alternar alto contraste">⚡</button>
+      </div>
+
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">☰</label>
+
+      <nav class="main-nav" role="navigation" aria-label="Menu principal">
+        <ul>
+          <li><a href="index.html" data-link aria-current="page">Início</a></li>
+          <li><a href="sobre.html" data-link>Sobre</a></li>
+          <li><a href="projetos.html" data-link>Projetos</a></li>
+          <li><a href="contato.html" data-link>Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" class="container" role="main" tabindex="-1">
+    <h1>Bem-vindo à Educação Positiva</h1>
+    <p>Projeto final — plataforma leve, acessível e pronta para entrega.</p>
+
+    <section class="cards" aria-label="Destaques iniciais">
+      <article class="card" role="article">
+        <h2>Voluntariado</h2>
+        <p>Participe de atividades de reforço escolar e oficinas.</p>
+      </article>
+      <article class="card" role="article">
+        <h2>Projetos</h2>
+        <p>Oficinas de tecnologia, leitura e cidadania digital.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>© 2025 Educação Positiva — Desenvolvido por João Vitor da Silva Alves</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
